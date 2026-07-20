@@ -84,6 +84,16 @@ Machine-learning software tools for **objective clinical motor analysis** and **
 
 ---
 
+### 🌐 3D Contribution Graph
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3d-contrib"/>
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Rishabh-Bajpai&theme=tokyonight&hide_border=true" alt="streak"/>
+</p>
+
+---
+
 ## 🛠️ Tech Stack & Ecosystem
 
 **Languages**
@@ -138,34 +148,6 @@ Machine-learning software tools for **objective clinical motor analysis** and **
 </p>
 
 ---
-
-## ⚡ GitHub Analytics, Metrics & Citations
-
-<p align="center">
-  <img src="./metrics.base.svg" alt="github-stats"/>&nbsp;&nbsp;<img src="./metrics.plugin.languages.svg" alt="langs"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Rishabh-Bajpai&theme=tokyonight&hide_border=true" alt="streak"/>&nbsp;&nbsp;<img src="./metrics.org.svg" alt="org-stats"/>
-</p>
-
-<p align="center">
-  <img src="./metrics.plugin.lines.svg" alt="lines"/>&nbsp;&nbsp;<img src="./metrics.plugin.repositories.svg" alt="repositories"/>
-</p>
-
-### 🌐 3D Contribution Graph
-<p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3d-contrib"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/repo-stats/total_stars.json?v=2&cacheSeconds=3600" alt="total stars"/>
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/repo-stats/total_forks.json?v=2&cacheSeconds=3600" alt="total forks"/>
-</p>
-
-<p align="center">
-  <a href="https://scholar.google.com/citations?user=R87Z5zAAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google%20Scholar-Click%20for%20Full%20Metrics-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/></a>
-</p>
 
 <p align="center">
   <img src="./footer.svg" alt="Built with open-source AI · WashU × Samosa AI"/>
