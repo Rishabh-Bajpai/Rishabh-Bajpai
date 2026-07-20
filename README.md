@@ -1,10 +1,10 @@
 <!-- ======= DR. RISHABH BAJPAI · CYBERPUNK PROFILE ======= -->
 <p align="center">
-  <img src="https://capsule-render.herokuapp.com/api?type=waving&color=0:f6019f,0x8c1eff,0:00f5d4&height=220&section=header&text=Dr.%20Rishabh%20Bajpai&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=AI%20for%20Movement%20Disorders%20%C2%B7%20Founder%20%40%20Samosa%20AI&descAlignY=58&descSize=18" alt="banner"/>
+  <img src="./banner.svg" alt="Dr. Rishabh Bajpai — WashU Researcher & Founder @ Samosa AI"/>
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&duration=4000&pause=800&center=true&vCenter=true&multiline=true&width=700&height=120&lines=Postdoc+Research+Associate+%40+WashU+%F0%9F%A7%AC;Founder+%40+Samosa+AI+%F0%9F%9A%80;AI+for+Pediatric+Movement+Disorders+in+Cerebral+Palsy;Open-Source+AI+Systems+Architect" alt="typing" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=4000&pause=900&center=true&vCenter=true&multiline=true&width=760&height=170&lines=Postdoc+Research+Associate+%40+WashU+%F0%9F%A7%AC;Founder+%40+Samosa+AI+%F0%9F%9A%80;AI+for+Pediatric+Movement+Disorders+in+Cerebral+Palsy;Open-Source+AI+Systems+Architect" alt="typing" /></a>
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
 
 🎯 **Mission:** Making advanced AI **accessible, transparent, and empowering** for everyone — across academia and industry.
 
-🔗 **Links:** [🌐 Website](https://www.rishabh-bajpai.com/) · [📚 Google Scholar](https://scholar.google.com/citations?user=R87Z5zAAAAAJ&hl=en) · [💼 LinkedIn](https://www.linkedin.com/in/rishabh-bajpai) · [🧪 WashU Lab](https://aravamuthanlab.wustl.edu/our-team/) · [🤖 Samosa AI Org](https://github.com/samosa-ai-com)
+🔗 **Links:** [🌐 Website](https://www.rishabh-bajpai.com/) · [📚 Google Scholar](https://scholar.google.com/citations?user=R87Z5zAAAAAJ&hl=en) · [💼 LinkedIn](https://www.linkedin.com/in/rishabh-bajpai) · [🧪 WashU Lab](https://aravamuthanlab.wustl.edu/our-team/) · [🤖 Samosa AI](https://github.com/samosa-ai-com)
 
 ---
 
@@ -129,8 +129,11 @@ Machine-learning software tools for **objective clinical motor analysis** and **
 ## ⚡ GitHub Analytics, Metrics & Citations
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Rishabh-Bajpai&count_private=true&show_icons=true&theme=tokyonight&include_all_commits=true&hide_border=true" alt="stats" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rishabh-Bajpai&layout=compact&theme=tokyonight&hide_border=true" alt="langs" height="180"/>
+  <img src="./metrics.base.svg" alt="github-stats"/>
+</p>
+
+<p align="center">
+  <img src="./metrics.plugin.languages.svg" alt="langs"/>
 </p>
 
 <p align="center">
@@ -138,35 +141,31 @@ Machine-learning software tools for **objective clinical motor analysis** and **
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=samosa-ai-com&show_icons=true&theme=tokyonight&hide_border=true" alt="org-stats" height="170"/>
+  <img src="./metrics.org.svg" alt="org-stats"/>
 </p>
 
-### 🌐 3D Contribution Graph & 📊 Daily Activity
+### 🌐 3D Contribution Graph
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3d-contrib"/>
-</p>
-
-<p align="center">
-  <img src="https://github-contribution-graph.glassflow.app/profile-graph?username=Rishabh-Bajpai&theme=tokyonight&format=svg" alt="activity-graph"/>
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3d-contrib"/>
 </p>
 
 ### 🏆 Achievements & 📅 Commit Calendar
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/main/metrics.plugin.achievements.svg" alt="achievements"/>
-  <img src="https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/main/metrics.plugin.isocalendar.svg" alt="isocalendar"/>
+  <img src="./metrics.plugin.achievements.svg" alt="achievements"/>
+  <img src="./metrics.plugin.isocalendar.svg" alt="isocalendar"/>
 </p>
 
 ### 👨‍💻 Lines of Code Changed & 📓 Active Repositories
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/main/metrics.plugin.lines.svg" alt="lines"/>
-  <img src="https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/main/metrics.plugin.repositories.svg" alt="repositories"/>
+  <img src="./metrics.plugin.lines.svg" alt="lines"/>
+  <img src="./metrics.plugin.repositories.svg" alt="repositories"/>
 </p>
 
 <p align="center">
   <a href="https://scholar.google.com/citations?user=R87Z5zAAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google%20Scholar-Click%20for%20Full%20Metrics-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/></a>
 </p>
 
-> ⚡ The `metrics.yml` workflow regenerates these infographics daily. Images populate after the first Actions run.
+> ⚡ The `metrics.yml` workflow (using your `METRICS_TOKEN`) regenerates these infographics daily. Images populate after the first Actions run.
 
 ---
 
@@ -178,9 +177,9 @@ Machine-learning software tools for **objective clinical motor analysis** and **
   <a href="https://scholar.google.com/citations?user=R87Z5zAAAAAJ&hl=en"><img src="https://img.shields.io/badge/Scholar-Rishabh%20Bajpai-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/></a>
   <a href="https://aravamuthanlab.wustl.edu/our-team/"><img src="https://img.shields.io/badge/WashU-Aravamuthan%20Lab-8c1eff?style=for-the-badge&logo=washington-university&logoColor=white"/></a>
   <a href="https://samosa-ai.com"><img src="https://img.shields.io/badge/Samosa%20AI-samosa--ai.com-f6019f?style=for-the-badge&logo=ai&logoColor=white"/></a>
-  <a href="https://github.com/samosa-ai-com"><img src="https://img.shields.io/badge/GitHub-@samosa--ai--com-8c1eff?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://github.com/samosa-ai-com"><img src="https://img.shields.io/badge/GitHub-samosa--ai-8c1eff?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.herokuapp.com/api?type=soft&color=0:f6019f,0x8c1eff,0:00f5d4&height=120&section=footer" alt="footer"/>
+  <img src="./footer.svg" alt="Built with open-source AI · WashU × Samosa AI"/>
 </p>

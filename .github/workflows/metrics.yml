@@ -14,11 +14,30 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Base stats
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.base.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Rishabh-Bajpai
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Chicago
+
+      - name: Languages
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Rishabh-Bajpai
+          base: ""
+          plugin_languages: yes
+          config_timezone: America/Chicago
+
       - name: Achievements
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.achievements.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           user: Rishabh-Bajpai
           base: ""
           plugin_achievements: yes
@@ -30,7 +49,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.isocalendar.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           user: Rishabh-Bajpai
           base: ""
           plugin_isocalendar: yes
@@ -41,7 +60,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.lines.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           user: Rishabh-Bajpai
           base: ""
           plugin_lines: yes
@@ -53,11 +72,20 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.repositories.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           user: Rishabh-Bajpai
           base: ""
           plugin_repositories: yes
           plugin_repositories_featured: samosa-ai-com/Chanakya, samosa-ai-com/Personal-Guru
+          config_timezone: America/Chicago
+
+      - name: Org stats (Samosa AI)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.org.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: samosa-ai-com
+          base: header, community, repositories, metadata
           config_timezone: America/Chicago
 
       - name: Commit metrics
