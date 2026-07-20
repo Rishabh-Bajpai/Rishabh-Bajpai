@@ -1,0 +1,67 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Achievements
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.achievements.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: Rishabh-Bajpai
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
+          config_timezone: America/Chicago
+
+      - name: Commit calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.isocalendar.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: Rishabh-Bajpai
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: fullyear
+          config_timezone: America/Chicago
+
+      - name: Lines of code changed
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.lines.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: Rishabh-Bajpai
+          base: ""
+          plugin_lines: yes
+          plugin_lines_sections: base, repositories, history
+          plugin_lines_history_limit: 1
+          config_timezone: America/Chicago
+
+      - name: Active repositories
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.repositories.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: Rishabh-Bajpai
+          base: ""
+          plugin_repositories: yes
+          plugin_repositories_featured: samosa-ai-com/Chanakya, samosa-ai-com/Personal-Guru
+          config_timezone: America/Chicago
+
+      - name: Commit metrics
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update github metrics"
+          file_pattern: "metrics*.svg"
