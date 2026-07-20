@@ -149,9 +149,8 @@ Machine-learning software tools for **objective clinical motor analysis** and **
   <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3d-contrib"/>
 </p>
 
-### 🏆 Achievements & 📅 Commit Calendar
+### 📅 Commit Calendar
 <p align="center">
-  <img src="./metrics.plugin.achievements.svg" alt="achievements"/>
   <img src="./metrics.plugin.isocalendar.svg" alt="isocalendar"/>
 </p>
 

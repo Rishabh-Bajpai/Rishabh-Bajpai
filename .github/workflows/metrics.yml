@@ -33,18 +33,6 @@ jobs:
           plugin_languages: yes
           config_timezone: America/Chicago
 
-      - name: Achievements
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.achievements.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Rishabh-Bajpai
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
-          config_timezone: America/Chicago
-
       - name: Commit calendar
         uses: lowlighter/metrics@latest
         with:
@@ -76,7 +64,7 @@ jobs:
           user: Rishabh-Bajpai
           base: ""
           plugin_repositories: yes
-          plugin_repositories_featured: samosa-ai-com/Chanakya, samosa-ai-com/Personal-Guru
+          plugin_repositories_featured: Rishabh-Bajpai/Child-Robot-Interaction, Rishabh-Bajpai/Virtual-3D-dress-fitting-system-using-Kinect-, Rishabh-Bajpai/Eye-state-classification-using-EEG--autoencoder-and-k-mean, Rishabh-Bajpai/Teaching-aid-for-Down-Syndrome
           config_timezone: America/Chicago
 
       - name: Org stats (Samosa AI)
