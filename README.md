@@ -4,12 +4,12 @@
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=4000&pause=900&center=true&vCenter=true&multiline=true&width=760&height=170&lines=Postdoc+Research+Associate+%40+WashU+%F0%9F%A7%AC;Founder+%40+Samosa+AI+%F0%9F%9A%80;AI+for+Pediatric+Movement+Disorders+in+Cerebral+Palsy;Open-Source+AI+Systems+Architect" alt="typing" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=1000&pause=5000&center=true&vCenter=true&multiline=true&width=760&height=170&lines=Postdoc+Research+Associate+%40+WashU+%F0%9F%A7%AC;Founder+%40+Samosa+AI+%F0%9F%9A%80;AI+for+Pediatric+Movement+Disorders+in+Cerebral+Palsy;Open-Source+AI+Systems+Architect" alt="typing" /></a>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/WashU-Postdoctoral%20Research%20Associate-8c1eff?style=for-the-badge&logo=washington-university&logoColor=white" />
-  <img src="https://img.shields.io/badge/Samosa%20AI-Founder%20%26%20Lead%20Dev-00f5d4?style=for-the-badge&logo=ai&logoColor=black" />
+  <img src="https://img.shields.io/badge/Samosa%20AI-Founder%20%26%20Lead%20Dev-0e7490?style=for-the-badge&logo=ai&logoColor=black" />
   <img src="https://img.shields.io/badge/Open--Source-AI%20for%20Everyone-f6019f?style=for-the-badge&logo=opensourceinitiative&logoFrame=none" />
 </p>
 
@@ -45,7 +45,7 @@ Machine-learning software tools for **objective clinical motor analysis** and **
   <a href="https://scholar.google.com/citations?user=R87Z5zAAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google%20Scholar-Full%20Profile-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/></a>
 </p>
 
-> ⚡ These counters update automatically every Sunday via the `google-scholar.yml` workflow (first run populates the numbers).
+> 🔄 Last updated: <img src="https://img.shields.io/github/last-commit/Rishabh-Bajpai/Rishabh-Bajpai?label=Last%20updated&color=8c1eff&style=flat-square" alt="last updated"/>
 
 ---
 
@@ -57,7 +57,7 @@ Machine-learning software tools for **objective clinical motor analysis** and **
     <td width="50%" align="center" valign="top">
       <h3>🎙️ Chanakya</h3>
       <p>Self-hostable local voice assistant with <b>1000+</b> MCP server integrations.</p>
-      <a href="https://github.com/samosa-ai-com/Chanakya-Local-Friend"><img src="https://img.shields.io/badge/Repo-samosa--ai%2FChanakya--Local--Friend-00f5d4?style=for-the-badge&logo=github&logoColor=white"/></a>
+      <a href="https://github.com/samosa-ai-com/Chanakya-Local-Friend"><img src="https://img.shields.io/badge/Repo-samosa--ai%2FChanakya--Local--Friend-0e7490?style=for-the-badge&logo=github&logoColor=white"/></a>
     </td>
     <td width="50%" align="center" valign="top">
       <h3>📚 Personal Guru</h3>
@@ -74,7 +74,7 @@ Machine-learning software tools for **objective clinical motor analysis** and **
     <td width="50%" align="center" valign="top">
       <h3>👁️ Watcher</h3>
       <p>Local CCTV AI processing server for all-day private, on-device video intelligence.</p>
-      <a href="https://github.com/samosa-ai-com"><img src="https://img.shields.io/badge/Repo-Watcher-00f5d4?style=for-the-badge&logo=github&logoColor=white"/></a>
+      <a href="https://github.com/samosa-ai-com"><img src="https://img.shields.io/badge/Repo-Watcher-0e7490?style=for-the-badge&logo=github&logoColor=white"/></a>
     </td>
   </tr>
 </table>
@@ -99,11 +99,11 @@ Machine-learning software tools for **objective clinical motor analysis** and **
 **AI / ML & Research**
 <p>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Computer%20Vision-00f5d4?style=flat-square&logo=opencv&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Computer%20Vision-0e7490?style=flat-square&logo=opencv&logoColor=white"/>
   <img src="https://img.shields.io/badge/Pose%20Estimation-8c1eff?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Local%20LLMs-00f5d4?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Local%20LLMs-0e7490?style=flat-square"/>
   <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenCode%20CLI-00f5d4?style=flat-square"/>
+  <img src="https://img.shields.io/badge/OpenCode%20CLI-0e7490?style=flat-square"/>
   <img src="https://img.shields.io/badge/MCP-8c1eff?style=flat-square"/>
 </p>
 
@@ -120,7 +120,7 @@ Machine-learning software tools for **objective clinical motor analysis** and **
 <p>
   <img src="https://img.shields.io/badge/Medical%20%2F%20Clinical%20AI-f6019f?style=flat-square"/>
   <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Web-00f5d4?style=flat-square&logo=react&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Web-0e7490?style=flat-square&logo=react&logoColor=white"/>
   <img src="https://img.shields.io/badge/Desktop%20Linux-8c1eff?style=flat-square&logo=linux&logoColor=white"/>
 </p>
 
@@ -149,6 +149,11 @@ Machine-learning software tools for **objective clinical motor analysis** and **
   <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3d-contrib"/>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/repo-stats/total_stars.json?v=2&cacheSeconds=3600" alt="total stars"/>
+  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/repo-stats/total_forks.json?v=2&cacheSeconds=3600" alt="total forks"/>
+</p>
+
 ### 📅 Commit Calendar
 <p align="center">
   <img src="./metrics.plugin.isocalendar.svg" alt="isocalendar"/>
@@ -164,14 +169,12 @@ Machine-learning software tools for **objective clinical motor analysis** and **
   <a href="https://scholar.google.com/citations?user=R87Z5zAAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google%20Scholar-Click%20for%20Full%20Metrics-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/></a>
 </p>
 
-> ⚡ The `metrics.yml` workflow (using your `METRICS_TOKEN`) regenerates these infographics daily. Images populate after the first Actions run.
-
 ---
 
 ## 🔗 Connect & Social
 
 <p align="center">
-  <a href="https://www.rishabh-bajpai.com/"><img src="https://img.shields.io/badge/Website-rishabh--bajpai.com-00f5d4?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+  <a href="https://www.rishabh-bajpai.com/"><img src="https://img.shields.io/badge/Website-rishabh--bajpai.com-0e7490?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/rishabh-bajpai"><img src="https://img.shields.io/badge/LinkedIn-rishabh--bajpai-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://scholar.google.com/citations?user=R87Z5zAAAAAJ&hl=en"><img src="https://img.shields.io/badge/Scholar-Rishabh%20Bajpai-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/></a>
   <a href="https://aravamuthanlab.wustl.edu/our-team/"><img src="https://img.shields.io/badge/WashU-Aravamuthan%20Lab-8c1eff?style=for-the-badge&logo=washington-university&logoColor=white"/></a>
