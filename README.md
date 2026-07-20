@@ -38,9 +38,9 @@ Machine-learning software tools for **objective clinical motor analysis** and **
 
 ### 📈 Live Google Scholar Metrics
 <p align="center">
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/google-scholar-stats/gs_data_citations.json" alt="citations"/>
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/google-scholar-stats/gs_data_h_index.json" alt="h-index"/>
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/google-scholar-stats/gs_data_i10_index.json" alt="i10-index"/>
+  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/google-scholar-stats/gs_data_citations.json?v=2&cacheSeconds=3600" alt="citations"/>
+  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/google-scholar-stats/gs_data_h_index.json?v=2&cacheSeconds=3600" alt="h-index"/>
+  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/google-scholar-stats/gs_data_i10_index.json?v=2&cacheSeconds=3600" alt="i10-index"/>
   <br/>
   <a href="https://scholar.google.com/citations?user=R87Z5zAAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google%20Scholar-Full%20Profile-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/></a>
 </p>
