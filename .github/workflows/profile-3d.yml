@@ -18,6 +18,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+      - name: Fix stars/forks to totals
+        run: python scripts/fix_3d_stats.py profile-3d-contrib/profile-night-rainbow.svg
       - name: Commit & Push
         run: |
           git config user.name github-actions

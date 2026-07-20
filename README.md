@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=1000&pause=5000&center=true&vCenter=true&multiline=true&width=760&height=170&lines=Postdoc+Research+Associate+%40+WashU+%F0%9F%A7%AC;Founder+%40+Samosa+AI+%F0%9F%9A%80;AI+for+Pediatric+Movement+Disorders+in+Cerebral+Palsy;Open-Source+AI+Systems+Architect" alt="typing" /></a>
+  <img src="./typing.svg" alt="typing"/>
 </p>
 
 <p align="center">
@@ -87,7 +87,7 @@ Machine-learning software tools for **objective clinical motor analysis** and **
 ## 🛠️ Tech Stack & Ecosystem
 
 **Languages**
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
@@ -97,7 +97,7 @@ Machine-learning software tools for **objective clinical motor analysis** and **
 </p>
 
 **AI / ML & Research**
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
   <img src="https://img.shields.io/badge/Computer%20Vision-0e7490?style=flat-square&logo=opencv&logoColor=white"/>
   <img src="https://img.shields.io/badge/Pose%20Estimation-8c1eff?style=flat-square"/>
@@ -108,7 +108,7 @@ Machine-learning software tools for **objective clinical motor analysis** and **
 </p>
 
 **Backend & Infra**
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/Linux%20Admin-FCC624?style=flat-square&logo=linux&logoColor=black"/>
@@ -117,56 +117,11 @@ Machine-learning software tools for **objective clinical motor analysis** and **
 </p>
 
 **Platforms**
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Medical%20%2F%20Clinical%20AI-f6019f?style=flat-square"/>
   <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white"/>
   <img src="https://img.shields.io/badge/Web-0e7490?style=flat-square&logo=react&logoColor=white"/>
   <img src="https://img.shields.io/badge/Desktop%20Linux-8c1eff?style=flat-square&logo=linux&logoColor=white"/>
-</p>
-
----
-
-## ⚡ GitHub Analytics, Metrics & Citations
-
-<p align="center">
-  <img src="./metrics.base.svg" alt="github-stats"/>
-</p>
-
-<p align="center">
-  <img src="./metrics.plugin.languages.svg" alt="langs"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Rishabh-Bajpai&theme=tokyonight&hide_border=true" alt="streak"/>
-</p>
-
-<p align="center">
-  <img src="./metrics.org.svg" alt="org-stats"/>
-</p>
-
-### 🌐 3D Contribution Graph
-<p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3d-contrib"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/repo-stats/total_stars.json?v=2&cacheSeconds=3600" alt="total stars"/>
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/repo-stats/total_forks.json?v=2&cacheSeconds=3600" alt="total forks"/>
-</p>
-
-### 📅 Commit Calendar
-<p align="center">
-  <img src="./metrics.plugin.isocalendar.svg" alt="isocalendar"/>
-</p>
-
-### 👨‍💻 Lines of Code Changed & 📓 Active Repositories
-<p align="center">
-  <img src="./metrics.plugin.lines.svg" alt="lines"/>
-  <img src="./metrics.plugin.repositories.svg" alt="repositories"/>
-</p>
-
-<p align="center">
-  <a href="https://scholar.google.com/citations?user=R87Z5zAAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google%20Scholar-Click%20for%20Full%20Metrics-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/></a>
 </p>
 
 ---
@@ -180,6 +135,36 @@ Machine-learning software tools for **objective clinical motor analysis** and **
   <a href="https://aravamuthanlab.wustl.edu/our-team/"><img src="https://img.shields.io/badge/WashU-Aravamuthan%20Lab-8c1eff?style=for-the-badge&logo=washington-university&logoColor=white"/></a>
   <a href="https://samosa-ai.com"><img src="https://img.shields.io/badge/Samosa%20AI-samosa--ai.com-f6019f?style=for-the-badge&logo=ai&logoColor=white"/></a>
   <a href="https://github.com/samosa-ai-com"><img src="https://img.shields.io/badge/GitHub-samosa--ai-8c1eff?style=for-the-badge&logo=github&logoColor=white"/></a>
+</p>
+
+---
+
+## ⚡ GitHub Analytics, Metrics & Citations
+
+<p align="center">
+  <img src="./metrics.base.svg" alt="github-stats"/>&nbsp;&nbsp;<img src="./metrics.plugin.languages.svg" alt="langs"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Rishabh-Bajpai&theme=tokyonight&hide_border=true" alt="streak"/>&nbsp;&nbsp;<img src="./metrics.org.svg" alt="org-stats"/>
+</p>
+
+<p align="center">
+  <img src="./metrics.plugin.lines.svg" alt="lines"/>&nbsp;&nbsp;<img src="./metrics.plugin.repositories.svg" alt="repositories"/>
+</p>
+
+### 🌐 3D Contribution Graph
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3d-contrib"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/repo-stats/total_stars.json?v=2&cacheSeconds=3600" alt="total stars"/>
+  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/repo-stats/total_forks.json?v=2&cacheSeconds=3600" alt="total forks"/>
+</p>
+
+<p align="center">
+  <a href="https://scholar.google.com/citations?user=R87Z5zAAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google%20Scholar-Click%20for%20Full%20Metrics-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/></a>
 </p>
 
 <p align="center">
