@@ -57,12 +57,12 @@ Machine-learning software tools for **objective clinical motor analysis** and **
     <td width="50%" align="center" valign="top">
       <h3>🎙️ Chanakya</h3>
       <p>Self-hostable local voice assistant with <b>1000+</b> MCP server integrations.</p>
-      <a href="https://github.com/samosa-ai-com/Chanakya"><img src="https://img.shields.io/badge/Repo-samosa--ai--com%2FChanakya-00f5d4?style=for-the-badge&logo=github&logoColor=white"/></a>
+      <a href="https://github.com/samosa-ai-com/Chanakya-Local-Friend"><img src="https://img.shields.io/badge/Repo-samosa--ai%2FChanakya--Local--Friend-00f5d4?style=for-the-badge&logo=github&logoColor=white"/></a>
     </td>
     <td width="50%" align="center" valign="top">
       <h3>📚 Personal Guru</h3>
       <p>Personalized, adaptive AI learning companion with privacy-first study modes.</p>
-      <a href="https://github.com/samosa-ai-com/Personal-Guru"><img src="https://img.shields.io/badge/Repo-samosa--ai--com%2FPersonal--Guru-8c1eff?style=for-the-badge&logo=github&logoColor=white"/></a>
+      <a href="https://github.com/samosa-ai-com/Personal-Guru"><img src="https://img.shields.io/badge/Repo-samosa--ai%2FPersonal--Guru-8c1eff?style=for-the-badge&logo=github&logoColor=white"/></a>
     </td>
   </tr>
   <tr>
