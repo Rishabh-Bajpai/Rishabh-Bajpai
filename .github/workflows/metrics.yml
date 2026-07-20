@@ -64,7 +64,7 @@ jobs:
           user: Rishabh-Bajpai
           base: ""
           plugin_repositories: yes
-          plugin_repositories_featured: Rishabh-Bajpai/Child-Robot-Interaction, Rishabh-Bajpai/Virtual-3D-dress-fitting-system-using-Kinect-, Rishabh-Bajpai/Eye-state-classification-using-EEG--autoencoder-and-k-mean, Rishabh-Bajpai/Teaching-aid-for-Down-Syndrome
+          plugin_repositories_featured: Rishabh-Bajpai/Child-Robot-Interaction, Rishabh-Bajpai/Teaching-aid-for-Down-Syndrome, Rishabh-Bajpai/spotify-ad-muter, Rishabh-Bajpai/Foot2hip
           config_timezone: America/Chicago
 
       - name: Org stats (Samosa AI)
