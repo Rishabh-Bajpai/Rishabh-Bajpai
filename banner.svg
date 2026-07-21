@@ -18,6 +18,6 @@
   <path d="M0,210 C200,170 350,250 500,210 C650,170 800,250 1000,210 L1000,260 L0,260 Z" fill="url(#neon)" opacity="0.22"/>
   <path d="M0,225 C200,190 350,260 500,225 C650,190 800,260 1000,225" fill="none" stroke="url(#neon)" stroke-width="3" filter="url(#glow)"/>
   <text x="500" y="115" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="48" font-weight="700" fill="url(#neon)" filter="url(#glow)">Dr. Rishabh Bajpai</text>
-  <text x="500" y="160" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#c9d1d9">AI for Movement Disorders · Founder @ Samosa AI</text>
+  <text x="500" y="160" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#c9d1d9">AI for Movement Disorders · Lead Contributor @ Samosa AI</text>
   <text x="500" y="195" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#8b949e">WashU Researcher · Open-Source AI Systems Architect</text>
 </svg>

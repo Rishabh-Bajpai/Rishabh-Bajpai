@@ -1,6 +1,6 @@
 <!-- ======= DR. RISHABH BAJPAI · CYBERPUNK PROFILE ======= -->
 <p align="center">
-  <img src="./banner.svg" alt="Dr. Rishabh Bajpai — WashU Researcher & Founder @ Samosa AI"/>
+  <img src="./banner.svg" alt="Dr. Rishabh Bajpai — WashU Researcher & Lead Contributor @ Samosa AI"/>
 </p>
 
 <p align="center">
@@ -9,7 +9,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/WashU-Postdoctoral%20Research%20Associate-8c1eff?style=for-the-badge&logo=washington-university&logoColor=white" />
-  <img src="https://img.shields.io/badge/Samosa%20AI-Founder%20%26%20Lead%20Dev-0e7490?style=for-the-badge&logo=ai&logoColor=black" />
+  <img src="https://img.shields.io/badge/Samosa%20AI-Lead%20Contributor-0e7490?style=for-the-badge&logo=ai&logoColor=black" />
   <img src="https://img.shields.io/badge/Open--Source-AI%20for%20Everyone-f6019f?style=for-the-badge&logo=opensourceinitiative&logoFrame=none" />
 </p>
 
@@ -19,7 +19,7 @@
 
 🏛️ **Academic Role:** Postdoctoral Research Associate at **Washington University in St. Louis (WashU)** — building machine learning & computer-vision frameworks for objective clinical diagnosis of pediatric movement disorders in cerebral palsy. See the **[Aravamuthan Lab team page](https://aravamuthanlab.wustl.edu/our-team/)**.
 
-🚀 **Founder Role:** Founder of **Samosa AI** ([samosa-ai.com](https://samosa-ai.com)) — open-source, on-device, privacy-first AI tools for learning, productivity, and health.
+🚀 **Lead Contributor Role:** Lead Contributor at **Samosa AI** ([samosa-ai.com](https://samosa-ai.com)) — open-source, on-device, privacy-first AI tools for learning, productivity, and health.
 
 🎯 **Mission:** Making advanced AI **accessible, transparent, and empowering** for everyone — across academia and industry.
 
