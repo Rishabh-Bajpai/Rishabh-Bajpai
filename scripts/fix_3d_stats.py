@@ -8,6 +8,7 @@ svg = svg.replace('x="650" y="830" text-anchor="start" class="fill-fg">5<title>5
                    'x="650" y="830" text-anchor="start" class="fill-fg">272<title>272</title>')
 svg = svg.replace('x="772" y="830" text-anchor="start" class="fill-fg">4<title>4</title>',
                    'x="772" y="830" text-anchor="start" class="fill-fg">31<title>31</title>')
+svg = svg.replace('#3572A5', '#22c55e')
 
 with open(path, "w") as f:
     f.write(svg)
