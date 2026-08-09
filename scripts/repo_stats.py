@@ -21,9 +21,9 @@ def totals(account, kind):
 
 
 ps, pf = totals("Rishabh-Bajpai", "users")
-ss, sf = totals("samosa-ai-com", "orgs")
-stars = ps + ss
-forks = pf + sf
+os_, of_ = totals("samosa-ai-com", "orgs")
+stars = ps + os_
+forks = pf + of_
 
 data = {
     "total_stars.json": ("Total Stars", stars, "8c1eff"),
@@ -41,4 +41,4 @@ for filename, (label, value, color) in data.items():
     with open(filename, "w") as f:
         json.dump(payload, f)
 
-print({"personal": (ps, pf), "samosa": (ss, sf), "total": (stars, forks)})
+print({"personal": (ps, pf), "open_source": (os_, of_), "total": (stars, forks)})

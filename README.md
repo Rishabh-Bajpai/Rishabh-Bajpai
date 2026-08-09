@@ -1,6 +1,6 @@
 <!-- ======= DR. RISHABH BAJPAI · CYBERPUNK PROFILE ======= -->
 <p align="center">
-  <img src="./banner.svg" alt="Dr. Rishabh Bajpai — WashU Researcher & Lead Contributor @ Samosa AI"/>
+  <img src="./banner.svg" alt="Dr. Rishabh Bajpai — WashU Researcher & Open-Source AI Contributor"/>
 </p>
 
 <p align="center">
@@ -9,7 +9,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/WashU-Postdoctoral%20Research%20Associate-8c1eff?style=for-the-badge&logo=washington-university&logoColor=white" />
-  <img src="https://img.shields.io/badge/Samosa%20AI-Lead%20Contributor-0e7490?style=for-the-badge&logo=ai&logoColor=black" />
   <img src="https://img.shields.io/badge/Open--Source-AI%20for%20Everyone-f6019f?style=for-the-badge&logo=opensourceinitiative&logoFrame=none" />
 </p>
 
@@ -19,11 +18,11 @@
 
 🏛️ **Academic Role:** Postdoctoral Research Associate at **Washington University in St. Louis (WashU)** — building machine learning & computer-vision frameworks for objective clinical diagnosis of pediatric movement disorders in cerebral palsy. See the **[Aravamuthan Lab team page](https://aravamuthanlab.wustl.edu/our-team/)**.
 
-🚀 **Lead Contributor Role:** Lead Contributor at **Samosa AI** ([samosa-ai.com](https://samosa-ai.com)) — open-source, on-device, privacy-first AI tools for learning, productivity, and health.
+🚀 **Open-Source:** Contributor to many open-source AI projects — on-device, privacy-first AI tools for learning, productivity, and health.
 
 🎯 **Mission:** Making advanced AI **accessible, transparent, and empowering** for everyone — across academia and industry.
 
-🔗 **Links:** [🌐 Website](https://www.rishabh-bajpai.com/) · [📚 Google Scholar](https://scholar.google.com/citations?user=R87Z5zAAAAAJ&hl=en) · [💼 LinkedIn](https://www.linkedin.com/in/rishabh-bajpai) · [🧪 WashU Lab](https://aravamuthanlab.wustl.edu/our-team/) · [🤖 Samosa AI](https://github.com/samosa-ai-com)
+🔗 **Links:** [🌐 Website](https://www.rishabh-bajpai.com/) · [📚 Google Scholar](https://scholar.google.com/citations?user=R87Z5zAAAAAJ&hl=en) · [💼 LinkedIn](https://www.linkedin.com/in/rishabh-bajpai) · [🧪 WashU Lab](https://aravamuthanlab.wustl.edu/our-team/)
 
 ---
 
@@ -49,7 +48,7 @@ Machine-learning software tools for **objective clinical motor analysis** and **
 
 ---
 
-## 🤖 Samosa AI — Flagship Projects
+## 🛠️ Open-Source Projects
 
 <p align="center">
 <table>
@@ -57,12 +56,12 @@ Machine-learning software tools for **objective clinical motor analysis** and **
     <td width="50%" align="center" valign="top">
       <h3>🎙️ Chanakya</h3>
       <p>Self-hostable local voice assistant with <b>1000+</b> MCP server integrations.</p>
-      <a href="https://github.com/samosa-ai-com/Chanakya-Local-Friend"><img src="https://img.shields.io/badge/Repo-samosa--ai%2FChanakya--Local--Friend-0e7490?style=for-the-badge&logo=github&logoColor=white"/></a>
+      <a href="https://github.com/samosa-ai-com/Chanakya-Local-Friend"><img src="https://img.shields.io/badge/Repo-Chanakya-0e7490?style=for-the-badge&logo=github&logoColor=white"/></a>
     </td>
     <td width="50%" align="center" valign="top">
       <h3>📚 Personal Guru</h3>
       <p>Personalized, adaptive AI learning companion with privacy-first study modes.</p>
-      <a href="https://github.com/samosa-ai-com/Personal-Guru"><img src="https://img.shields.io/badge/Repo-samosa--ai%2FPersonal--Guru-8c1eff?style=for-the-badge&logo=github&logoColor=white"/></a>
+      <a href="https://github.com/samosa-ai-com/Personal-Guru"><img src="https://img.shields.io/badge/Repo-Personal%20Guru-8c1eff?style=for-the-badge&logo=github&logoColor=white"/></a>
     </td>
   </tr>
   <tr>
@@ -80,7 +79,7 @@ Machine-learning software tools for **objective clinical motor analysis** and **
 </table>
 </p>
 
-> 🔗 Explore the full ecosystem at **[github.com/samosa-ai-com](https://github.com/samosa-ai-com)**.
+> 🔗 Explore more of my open-source work on **[GitHub](https://github.com/Rishabh-Bajpai)**.
 
 ---
 
@@ -143,12 +142,10 @@ Machine-learning software tools for **objective clinical motor analysis** and **
   <a href="https://www.linkedin.com/in/rishabh-bajpai"><img src="https://img.shields.io/badge/LinkedIn-rishabh--bajpai-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://scholar.google.com/citations?user=R87Z5zAAAAAJ&hl=en"><img src="https://img.shields.io/badge/Scholar-Rishabh%20Bajpai-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/></a>
   <a href="https://aravamuthanlab.wustl.edu/our-team/"><img src="https://img.shields.io/badge/WashU-Aravamuthan%20Lab-8c1eff?style=for-the-badge&logo=washington-university&logoColor=white"/></a>
-  <a href="https://samosa-ai.com"><img src="https://img.shields.io/badge/Samosa%20AI-samosa--ai.com-f6019f?style=for-the-badge&logo=ai&logoColor=white"/></a>
-  <a href="https://github.com/samosa-ai-com"><img src="https://img.shields.io/badge/GitHub-samosa--ai-8c1eff?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
 ---
 
 <p align="center">
-  <img src="./footer.svg" alt="Built with open-source AI · WashU × Samosa AI"/>
+  <img src="./footer.svg" alt="Built with open-source AI"/>
 </p>
