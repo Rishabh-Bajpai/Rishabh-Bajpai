@@ -2,8 +2,12 @@ name: Google Scholar Stats
 
 on:
   schedule:
-    - cron: "0 2 * * 0"
+    - cron: "0 2 * * *"
   workflow_dispatch:
+
+concurrency:
+  group: google-scholar-stats
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -13,12 +17,47 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch Scholar data
-        run: python scripts/scholar.py
-      - name: Commit
-        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          branch: google-scholar-stats
-          create_branch: true
-          commit_message: "chore: update scholar stats"
-          file_pattern: "gs_data*.json"
+          fetch-depth: 0
+      - name: Prepare stats branch
+        run: |
+          git fetch origin google-scholar-stats:refs/remotes/origin/google-scholar-stats
+          git checkout --detach origin/google-scholar-stats
+      - name: Check refresh interval
+        id: refresh
+        run: |
+          last_checked_at="$(git show origin/google-scholar-stats:gs_data_last_updated.json 2>/dev/null | python -c 'import json, sys; data = json.load(sys.stdin); print(data.get("last_checked_at") or data.get("message", ""))' 2>/dev/null || true)"
+          now="$(date -u +%s)"
+          interval=$((3 * 24 * 60 * 60))
+
+          if [ -z "$last_checked_at" ]; then
+            echo "No previous refresh date found; refreshing Scholar data"
+            echo "due=true" >> "$GITHUB_OUTPUT"
+          elif ! last_checked_epoch="$(date -u -d "$last_checked_at" +%s 2>/dev/null)"; then
+            echo "Previous refresh date is invalid; refreshing Scholar data"
+            echo "due=true" >> "$GITHUB_OUTPUT"
+          elif [ $((now - last_checked_epoch)) -ge "$interval" ]; then
+            echo "At least three days have elapsed; refreshing Scholar data"
+            echo "due=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Refresh not due yet (last attempt: $last_checked_at)"
+            echo "due=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Fetch Scholar data
+        if: steps.refresh.outputs.due == 'true'
+        run: |
+          git checkout origin/main -- scripts/scholar.py
+          python scripts/scholar.py
+          git restore --source=origin/google-scholar-stats -- scripts/scholar.py
+      - name: Commit and push
+        if: steps.refresh.outputs.due == 'true'
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add gs_data*.json
+          if git diff --cached --quiet; then
+            echo "No Scholar data changes"
+            exit 0
+          fi
+          git commit -m "chore: update scholar stats"
+          git push origin HEAD:google-scholar-stats
