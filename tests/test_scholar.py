@@ -16,14 +16,14 @@ SPEC.loader.exec_module(scholar)
 class ScholarTests(unittest.TestCase):
     def test_parse_metrics(self):
         html = (
-            '<meta content="Cited by 700" />'
+            '<meta content="Cited by 1,234" />'
             '<td>h-index</a></td><td class="gsc_rsb_std">11</td>'
             '<td>i10-index</a></td><td class="gsc_rsb_std">12</td>'
         )
 
         self.assertEqual(
             scholar.parse_metrics(html),
-            {"citations": 700, "h_index": 11, "i10": 12},
+            {"citations": 1234, "h_index": 11, "i10": 12},
         )
 
     def test_failed_fetch_preserves_values_and_updates_date(self):
@@ -49,13 +49,17 @@ class ScholarTests(unittest.TestCase):
                 json.loads((output_dir / "gs_data_last_updated.json").read_text())["message"],
                 result["last_updated"],
             )
+            self.assertIn(
+                "last_checked_at",
+                json.loads((output_dir / "gs_data_last_updated.json").read_text()),
+            )
             self.assertEqual(
                 set(result["used_fallback"]), {"citations", "h_index", "i10"}
             )
 
     def test_successful_fetch_replaces_values(self):
         html = (
-            '<meta content="Cited by 700" />'
+            '<meta content="Cited by 1,234" />'
             '<td>h-index</a></td><td class="gsc_rsb_std">11</td>'
             '<td>i10-index</a></td><td class="gsc_rsb_std">12</td>'
         )
@@ -64,7 +68,7 @@ class ScholarTests(unittest.TestCase):
             with patch.object(scholar, "fetch", return_value=html):
                 result = scholar.update(directory)
 
-            self.assertEqual(result["citations"], 700)
+            self.assertEqual(result["citations"], 1234)
             self.assertEqual(result["h_index"], 11)
             self.assertEqual(result["i10"], 12)
             self.assertEqual(result["used_fallback"], [])

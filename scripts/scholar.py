@@ -19,7 +19,7 @@ def fetch():
 
 def grab(html, pattern):
     match = re.search(pattern, html)
-    return int(match.group(1)) if match else None
+    return int(match.group(1).replace(",", "")) if match else None
 
 
 def parse_metrics(html):
@@ -32,7 +32,7 @@ def parse_metrics(html):
         i10 = grab(html, r'i10-index</td>\s*<td class="gsc_rsb_std">(\d+)')
 
     return {
-        "citations": grab(html, r'content="[^"]*Cited by\s+(\d+)'),
+        "citations": grab(html, r'content="[^"]*Cited by\s+([\d,]+)'),
         "h_index": h_index,
         "i10": i10,
     }
@@ -48,8 +48,10 @@ def previous_value(path):
         return None
 
 
-def write_payload(path, label, value, color):
+def write_payload(path, label, value, color, extra=None):
     payload = {"schemaVersion": 1, "label": label, "message": str(value), "color": color}
+    if extra:
+        payload.update(extra)
     with open(path, "w") as f:
         json.dump(payload, f)
 
@@ -75,12 +77,14 @@ def update(output_dir="."):
         values[key] = value
         write_payload(os.path.join(output_dir, filename), label, value, color)
 
-    last_updated = datetime.now(timezone.utc).date().isoformat()
+    checked_at = datetime.now(timezone.utc)
+    last_updated = checked_at.date().isoformat()
     write_payload(
         os.path.join(output_dir, "gs_data_last_updated.json"),
         "Last updated",
         last_updated,
         "8c1eff",
+        {"last_checked_at": checked_at.isoformat()},
     )
 
     result = dict(values)
