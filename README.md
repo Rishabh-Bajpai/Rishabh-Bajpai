@@ -44,7 +44,7 @@ Machine-learning software tools for **objective clinical motor analysis** and **
   <a href="https://scholar.google.com/citations?user=R87Z5zAAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google%20Scholar-Full%20Profile-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/></a>
 </p>
 
-> 🔄 Last updated: <img src="https://img.shields.io/github/last-commit/Rishabh-Bajpai/Rishabh-Bajpai?label=Last%20updated&color=8c1eff&style=flat-square" alt="last updated"/>
+> 🔄 Last updated: <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rishabh-Bajpai/Rishabh-Bajpai/google-scholar-stats/gs_data_last_updated.json&cacheSeconds=3600" alt="last updated"/>
 
 ---
 
