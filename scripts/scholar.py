@@ -1,43 +1,97 @@
 import json
+import os
 import re
 import urllib.request
+from datetime import datetime, timezone
 
 USER = "R87Z5zAAAAAJ"
 URL = f"https://scholar.google.com/citations?user={USER}&hl=en"
 
-req = urllib.request.Request(URL, headers={"User-Agent": "Mozilla/5.0"})
-try:
-    html = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "ignore")
-except Exception:
-    html = ""
+
+def fetch():
+    req = urllib.request.Request(URL, headers={"User-Agent": "Mozilla/5.0"})
+    try:
+        return urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "ignore")
+    except Exception as exc:
+        print(f"Scholar fetch failed; using previous values: {exc}")
+        return ""
 
 
-def grab(pattern, default=0):
-    m = re.search(pattern, html)
-    return int(m.group(1)) if m else default
+def grab(html, pattern):
+    match = re.search(pattern, html)
+    return int(match.group(1).replace(",", "")) if match else None
 
 
-citations = grab(r'content="[^"]*Cited by\s+(\d+)')
-h_index = grab(r"h-index</a></td>\s*<td[^>]*>(\d+)")
-i10 = grab(r"i10-index</a></td>\s*<td[^>]*>(\d+)")
+def parse_metrics(html):
+    h_index = grab(html, r"h-index</a></td>\s*<td[^>]*>(\d+)")
+    i10 = grab(html, r"i10-index</a></td>\s*<td[^>]*>(\d+)")
 
-# Fallbacks for the stats table layout
-if h_index == 0:
-    m = re.search(r'h-index</td>\s*<td class="gsc_rsb_std">(\d+)', html)
-    h_index = int(m.group(1)) if m else 0
-if i10 == 0:
-    m = re.search(r'i10-index</td>\s*<td class="gsc_rsb_std">(\d+)', html)
-    i10 = int(m.group(1)) if m else 0
+    if h_index is None:
+        h_index = grab(html, r'h-index</td>\s*<td class="gsc_rsb_std">(\d+)')
+    if i10 is None:
+        i10 = grab(html, r'i10-index</td>\s*<td class="gsc_rsb_std">(\d+)')
 
-data = {
-    "gs_data_citations.json": ("Citations", str(citations), "blue"),
-    "gs_data_h_index.json": ("h-index", str(h_index), "blueviolet"),
-    "gs_data_i10_index.json": ("i10-index", str(i10), "ff69b4"),
-}
+    return {
+        "citations": grab(html, r'content="[^"]*Cited by\s+([\d,]+)'),
+        "h_index": h_index,
+        "i10": i10,
+    }
 
-for filename, (label, message, color) in data.items():
-    payload = {"schemaVersion": 1, "label": label, "message": message, "color": color}
-    with open(filename, "w") as f:
+
+def previous_value(path):
+    if not os.path.exists(path):
+        return None
+    try:
+        with open(path) as f:
+            return int(json.load(f).get("message"))
+    except (OSError, TypeError, ValueError):
+        return None
+
+
+def write_payload(path, label, value, color, extra=None):
+    payload = {"schemaVersion": 1, "label": label, "message": str(value), "color": color}
+    if extra:
+        payload.update(extra)
+    with open(path, "w") as f:
         json.dump(payload, f)
 
-print({"citations": citations, "h_index": h_index, "i10": i10})
+
+def update(output_dir="."):
+    html = fetch()
+    metrics = parse_metrics(html)
+    data = {
+        "gs_data_citations.json": ("citations", "Citations", "blue"),
+        "gs_data_h_index.json": ("h_index", "h-index", "blueviolet"),
+        "gs_data_i10_index.json": ("i10", "i10-index", "ff69b4"),
+    }
+
+    values = {}
+    used_fallback = []
+    for filename, (key, label, color) in data.items():
+        value = metrics[key]
+        if value is None:
+            path = os.path.join(output_dir, filename)
+            previous = previous_value(path)
+            value = previous if previous is not None else 0
+            used_fallback.append(key)
+        values[key] = value
+        write_payload(os.path.join(output_dir, filename), label, value, color)
+
+    checked_at = datetime.now(timezone.utc)
+    last_updated = checked_at.date().isoformat()
+    write_payload(
+        os.path.join(output_dir, "gs_data_last_updated.json"),
+        "Last updated",
+        last_updated,
+        "8c1eff",
+        {"last_checked_at": checked_at.isoformat()},
+    )
+
+    result = dict(values)
+    result["last_updated"] = last_updated
+    result["used_fallback"] = used_fallback
+    return result
+
+
+if __name__ == "__main__":
+    print(update())
